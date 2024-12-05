@@ -1,0 +1,12 @@
+[
+  {
+    "description": "This is First Currency",
+    "amount": 600,
+    "currency": "USD"
+  },
+  {
+    "description": "This is Second Currency",
+    "amount": 2222,
+    "currency": "BDT"
+  }
+]
