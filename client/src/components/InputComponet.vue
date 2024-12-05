@@ -120,7 +120,7 @@ export default defineComponent({
 
       errorMessage.value = "";
       successMessage.value = "";
-      const response = await axios.post("http://localhost:5000/api/expense/", formData);
+      const response = await axios.post("https://node-vue-currency.onrender.com/api/expense/", formData);
       successMessage.value = response.data.message;
       }catch(error: unknown){
         if (axios.isAxiosError(error)) {

@@ -132,7 +132,7 @@ export default defineComponent({
     const fetchData = async () => {
       loading.value = true;
       try {
-        const response = await axios.get("http://localhost:5000/api/expense/");
+        const response = await axios.get("https://node-vue-currency.onrender.com/api/expense/");
         alldata.value = response.data?.allExpenses;
       } catch (error:unknown) {
         if (axios.isAxiosError(error)) {
@@ -151,7 +151,7 @@ export default defineComponent({
       loading.value = true;
       try {
         const response = await axios.get(
-          `http://localhost:5000/api/summary/?baseCurrency=${currencyData.value}`
+          `https://node-vue-currency.onrender.com/api/summary/?baseCurrency=${currencyData.value}`
         );
         totalAmountOfData.value = response.data;
       } catch (error:unknown) {
