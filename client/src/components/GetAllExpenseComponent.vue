@@ -73,7 +73,7 @@
     </div>
   </div>
   <div
-    class="overflow-x-auto flex-col container flex items-center justify-center w-full"
+    class="overflow-x-auto flex-col flex items-center justify-center w-full"
   >
     <table
       class="min-w-[43%] table-auto border-collapse border border-gray-300"
